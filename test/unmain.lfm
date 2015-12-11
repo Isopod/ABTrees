@@ -1,0 +1,615 @@
+object Form1: TForm1
+  Left = 0
+  Height = 1157
+  Top = 20
+  Width = 1916
+  ActiveControl = Panel1
+  Caption = 'Form1'
+  ClientHeight = 1157
+  ClientWidth = 1916
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnPaint = FormPaint
+  OnResize = FormResize
+  LCLVersion = '1.4.4.0'
+  object bIns1: TButton
+    Left = 24
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '1'
+    OnClick = bIns1Click
+    TabOrder = 0
+  end
+  object bIns2: TButton
+    Left = 64
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '2'
+    OnClick = bIns1Click
+    TabOrder = 1
+  end
+  object bIns3: TButton
+    Left = 104
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '3'
+    OnClick = bIns1Click
+    TabOrder = 2
+  end
+  object bIns4: TButton
+    Left = 144
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '5'
+    OnClick = bIns1Click
+    TabOrder = 3
+  end
+  object bIns5: TButton
+    Left = 184
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '7'
+    OnClick = bIns1Click
+    TabOrder = 4
+  end
+  object bIns6: TButton
+    Left = 224
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '11'
+    OnClick = bIns1Click
+    TabOrder = 5
+  end
+  object bIns7: TButton
+    Left = 264
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '13'
+    OnClick = bIns1Click
+    TabOrder = 6
+  end
+  object bIns8: TButton
+    Left = 304
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '17'
+    OnClick = bIns1Click
+    TabOrder = 7
+  end
+  object bIns9: TButton
+    Left = 344
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '19'
+    OnClick = bIns1Click
+    TabOrder = 8
+  end
+  object bIns10: TButton
+    Left = 384
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '23'
+    OnClick = bIns1Click
+    TabOrder = 9
+  end
+  object bIns11: TButton
+    Left = 424
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '29'
+    OnClick = bIns1Click
+    TabOrder = 10
+  end
+  object bIns12: TButton
+    Left = 464
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '31'
+    OnClick = bIns1Click
+    TabOrder = 11
+  end
+  object bIns13: TButton
+    Left = 504
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '37'
+    OnClick = bIns1Click
+    TabOrder = 12
+  end
+  object bIns14: TButton
+    Left = 544
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '41'
+    OnClick = bIns1Click
+    TabOrder = 13
+  end
+  object bIns15: TButton
+    Left = 584
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '43'
+    OnClick = bIns1Click
+    TabOrder = 14
+  end
+  object bIns16: TButton
+    Left = 624
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '47'
+    OnClick = bIns1Click
+    TabOrder = 15
+  end
+  object bIns17: TButton
+    Left = 664
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '53'
+    OnClick = bIns1Click
+    TabOrder = 16
+  end
+  object bIns18: TButton
+    Left = 704
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '59'
+    OnClick = bIns1Click
+    TabOrder = 17
+  end
+  object bIns19: TButton
+    Left = 744
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '61'
+    OnClick = bIns1Click
+    TabOrder = 18
+  end
+  object bIns20: TButton
+    Left = 784
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '67'
+    OnClick = bIns1Click
+    TabOrder = 19
+  end
+  object bIns21: TButton
+    Left = 824
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '71'
+    OnClick = bIns1Click
+    TabOrder = 20
+  end
+  object bIns22: TButton
+    Left = 864
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '73'
+    OnClick = bIns1Click
+    TabOrder = 21
+  end
+  object bIns23: TButton
+    Left = 904
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '79'
+    OnClick = bIns1Click
+    TabOrder = 22
+  end
+  object bIns24: TButton
+    Left = 944
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '83'
+    OnClick = bIns1Click
+    TabOrder = 23
+  end
+  object bIns25: TButton
+    Left = 984
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '89'
+    OnClick = bIns1Click
+    TabOrder = 24
+  end
+  object bIns26: TButton
+    Left = 1024
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '97'
+    OnClick = bIns1Click
+    TabOrder = 25
+  end
+  object bIns27: TButton
+    Left = 1064
+    Height = 32
+    Top = 568
+    Width = 34
+    Caption = '101'
+    OnClick = bIns1Click
+    TabOrder = 26
+  end
+  object bIns28: TButton
+    Left = 24
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '1'
+    OnClick = bRem1Click
+    TabOrder = 27
+  end
+  object bIns29: TButton
+    Left = 64
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '2'
+    OnClick = bRem1Click
+    TabOrder = 28
+  end
+  object bIns30: TButton
+    Left = 104
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '3'
+    OnClick = bRem1Click
+    TabOrder = 29
+  end
+  object bIns31: TButton
+    Left = 144
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '5'
+    OnClick = bRem1Click
+    TabOrder = 30
+  end
+  object bIns32: TButton
+    Left = 184
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '7'
+    OnClick = bRem1Click
+    TabOrder = 31
+  end
+  object bIns33: TButton
+    Left = 224
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '11'
+    OnClick = bRem1Click
+    TabOrder = 32
+  end
+  object bIns34: TButton
+    Left = 264
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '13'
+    OnClick = bRem1Click
+    TabOrder = 33
+  end
+  object bIns35: TButton
+    Left = 304
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '17'
+    OnClick = bRem1Click
+    TabOrder = 34
+  end
+  object bIns36: TButton
+    Left = 344
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '19'
+    OnClick = bRem1Click
+    TabOrder = 35
+  end
+  object bIns37: TButton
+    Left = 384
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '23'
+    OnClick = bRem1Click
+    TabOrder = 36
+  end
+  object bIns38: TButton
+    Left = 424
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '29'
+    OnClick = bRem1Click
+    TabOrder = 37
+  end
+  object bIns39: TButton
+    Left = 464
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '31'
+    OnClick = bRem1Click
+    TabOrder = 38
+  end
+  object bIns40: TButton
+    Left = 504
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '37'
+    OnClick = bRem1Click
+    TabOrder = 39
+  end
+  object bIns41: TButton
+    Left = 544
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '41'
+    OnClick = bRem1Click
+    TabOrder = 40
+  end
+  object bIns42: TButton
+    Left = 584
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '43'
+    OnClick = bRem1Click
+    TabOrder = 41
+  end
+  object bIns43: TButton
+    Left = 624
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '47'
+    OnClick = bRem1Click
+    TabOrder = 42
+  end
+  object bIns44: TButton
+    Left = 664
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '53'
+    OnClick = bRem1Click
+    TabOrder = 43
+  end
+  object bIns45: TButton
+    Left = 704
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '59'
+    OnClick = bRem1Click
+    TabOrder = 44
+  end
+  object bIns46: TButton
+    Left = 744
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '61'
+    OnClick = bRem1Click
+    TabOrder = 45
+  end
+  object bIns47: TButton
+    Left = 784
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '67'
+    OnClick = bRem1Click
+    TabOrder = 46
+  end
+  object bIns48: TButton
+    Left = 824
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '71'
+    OnClick = bRem1Click
+    TabOrder = 47
+  end
+  object bIns49: TButton
+    Left = 864
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '73'
+    OnClick = bRem1Click
+    TabOrder = 48
+  end
+  object bIns50: TButton
+    Left = 904
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '79'
+    OnClick = bRem1Click
+    TabOrder = 49
+  end
+  object bIns51: TButton
+    Left = 944
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '83'
+    OnClick = bRem1Click
+    TabOrder = 50
+  end
+  object bIns52: TButton
+    Left = 984
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '89'
+    OnClick = bRem1Click
+    TabOrder = 51
+  end
+  object bIns53: TButton
+    Left = 1024
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '97'
+    OnClick = bRem1Click
+    TabOrder = 52
+  end
+  object bIns54: TButton
+    Left = 1064
+    Height = 32
+    Top = 640
+    Width = 34
+    Caption = '101'
+    OnClick = bRem1Click
+    TabOrder = 53
+  end
+  object Panel1: TPanel
+    Left = 24
+    Height = 24
+    Top = 544
+    Width = 96
+    Alignment = taLeftJustify
+    BevelOuter = bvNone
+    Caption = 'Insert'
+    Color = clWhite
+    ParentColor = False
+    TabOrder = 54
+  end
+  object Panel2: TPanel
+    Left = 24
+    Height = 24
+    Top = 616
+    Width = 80
+    Alignment = taLeftJustify
+    BevelOuter = bvNone
+    Caption = 'Remove'
+    Color = clWhite
+    ParentColor = False
+    TabOrder = 55
+  end
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 728
+    Width = 139
+    Caption = 'Insert 0..100'
+    OnClick = Button1Click
+    TabOrder = 56
+  end
+  object Button2: TButton
+    Left = 24
+    Height = 25
+    Top = 760
+    Width = 139
+    Caption = 'Remove 0..71'
+    OnClick = Button2Click
+    TabOrder = 57
+  end
+  object Button3: TButton
+    Left = 168
+    Height = 25
+    Top = 760
+    Width = 139
+    Caption = 'Remove 72'
+    OnClick = Button3Click
+    TabOrder = 58
+  end
+  object Button4: TButton
+    Left = 312
+    Height = 25
+    Top = 728
+    Width = 139
+    Caption = 'Insert random (50)'
+    OnClick = Button4Click
+    TabOrder = 59
+  end
+  object Button5: TButton
+    Left = 312
+    Height = 25
+    Top = 760
+    Width = 139
+    Caption = 'Remove random (50)'
+    OnClick = Button5Click
+    TabOrder = 60
+  end
+  object Memo1: TMemo
+    Left = 484
+    Height = 131
+    Top = 722
+    Width = 614
+    TabOrder = 61
+  end
+  object Button6: TButton
+    Left = 24
+    Height = 25
+    Top = 792
+    Width = 139
+    Caption = 'Enumerate Forward'
+    OnClick = Button6Click
+    TabOrder = 62
+  end
+  object Button7: TButton
+    Left = 168
+    Height = 25
+    Top = 792
+    Width = 139
+    Caption = 'Enumerate Backward'
+    OnClick = Button7Click
+    TabOrder = 63
+  end
+  object Button8: TButton
+    Left = 312
+    Height = 25
+    Top = 792
+    Width = 139
+    Caption = 'Retrieve random'
+    OnClick = Button8Click
+    TabOrder = 64
+  end
+  object Button9: TButton
+    Left = 24
+    Height = 25
+    Top = 824
+    Width = 139
+    Caption = 'Reset data 40..60'
+    OnClick = Button9Click
+    TabOrder = 65
+  end
+end
